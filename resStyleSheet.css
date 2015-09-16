@@ -1,0 +1,131 @@
+#body {
+	height: 150vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+#bodyTextRes {
+	width: 85vw;
+	height: 60vh;
+	background-color: #262626;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.progBarBord {
+	height: 2vh;
+	width: 30vw;
+	background: #fff;
+	border: 3px solid #000;
+	border-radius: 5px;
+}
+
+.progBarFill {
+	height: 2vh;
+	background: #666; 
+}
+
+.programMeter{
+	display: inline-block;
+}
+
+.programMeter em{
+	font-weight: bold;
+}
+
+#headBodyElem{
+	width: 25vw;
+	height: 6vh;
+	background: #262626;
+	margin: 0 auto 1vh auto;
+}
+
+#headBodyElem h2{
+	font-family: RobotoB;
+	color: red;
+	font-size: 4vh;
+	display: table;
+	margin: 0.5vh auto 0.5vh auto;
+}
+
+#headBodyElem hr{
+	width: 50%;
+}
+
+#bodyUlRes {
+	font-family: RobotoL;
+	font-size: 2vh;
+	color: white;
+}
+
+#bodyUlRes h3{
+	font-family: Roboto;
+	font-size: 2.25vh;	
+	color: red;
+}
+
+#bodyUlRes h2{
+	font-family: Roboto;
+	color: red;
+	font-size: 3.5vh;
+}
+
+#headBodyElem {
+	font-family: RobotoB;
+	color: red;
+	height: 6vh;
+	width: 25vw;
+	text-align: center;
+}
+
+#bodyUlRes em{
+	font-weight: bold;
+}
+
+#bodyUlRes > li{
+	display: inline-block;
+	margin-top: 5vh;
+	max-width: 85vw;
+	max-height: 40vw; 
+}
+
+#resSecHead {
+	float: left;
+	width: 25vw;
+}
+
+#resSecHead hr{
+	width: 40%;
+}
+
+#resSecHead h2{
+	text-align: center;
+}
+
+#resSecBod {
+	float: left;
+	width: 60vw;
+	margin-top: 0.5vh;
+}
+
+#resSecBod br{
+	display: block;
+	margin-bottom: 1vh;
+}
+
+#resList {
+	list-style-type: none;
+}
+
+#headFooterElem {
+	color: white;
+	font-family: RobotoL;
+	font-size: 1.75vh;
+}
+
+#headFooterElem a{
+	color: red;
+}

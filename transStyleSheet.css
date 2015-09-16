@@ -1,0 +1,89 @@
+#transBodyElem {
+	width: 90vw;
+	height: 60vh;
+	background-color: #262626;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#headBodyElem {
+	width: 25vw;
+	height: 6vh;
+	background: #262626;
+	margin: 0 auto 1vh auto;
+}
+
+#headBodyElem hr {
+	margin-top: -1vh;
+	margin-bottom: 0;
+	width: 90%;
+}
+
+#headBodyElem h2{
+	font-family: RobotoB;
+	color: red;
+	font-size: 4vh;
+	display: table;
+	margin: 0.5vh auto 0.5vh auto;
+}
+
+#headFooterElem{
+	font-size: 1em;
+	font-family: RobotoL;
+	color: white;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#headFooterElem a{
+	color: red;
+}
+
+#bodyUlTrans {
+	background-color: #262626;
+	list-style-type: none;
+	display: table-cell;
+	margin: 0 auto;
+	max-width: 93vw;
+	float: left;
+}
+
+#bodyUlTrans div{
+	display: inline-block;
+	float: left;
+	color: white;
+	width: 30vw;
+	height: 30vh;
+	margin: 0 auto;
+	font-family: RobotoL;
+}
+
+#bodyUlTrans div ul{
+	display: table;
+	margin: 0 auto;
+}
+
+#bodyUlTrans div ul li{
+	font-size: 1.75vh;
+}
+
+#bodyUlTrans div h2{
+	font-family: Roboto;
+	color: red;
+	display: table;
+	margin: 1vh auto 1vh auto;
+	font-size: 2.5vh;
+}
+
+#bodyUlTrans div hr{
+	width: 75%;
+}
+
+#bodyUlTrans .cmpscList {
+	list-style-type: circle;
+}

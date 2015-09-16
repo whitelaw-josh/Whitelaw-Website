@@ -1,0 +1,255 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+hr {
+	height: 2px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px double;
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url(./Font/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Font/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoL;
+    src: url(./Font/RobotoSlab-Light.ttf);
+}
+
+a {
+	text-decoration: none;
+}
+
+li div{	
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+li span{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#header {
+	border-bottom-style: groove;
+	width: 100vw;
+	height: 9vh;
+	display: table-cell;
+	vertical-align:middle;
+	background-image: url(./Imgs/headerFooterBG.png);
+	background-size: contain;
+}
+
+#headElem {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header h1 {
+	margin-left: 10vw;
+	display: inline;
+	color: red;
+	font-family: RobotoB;
+}
+
+#navBar {
+	list-style-type: none;
+	display: inline;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#navBar li{
+	font-family: Roboto;
+	display: inline;
+	border-style: groove;
+	border-radius: 5px;
+	border-color: silver;
+	width: 10em;
+	height: 2em;
+	text-align: center;
+	position: relative;
+	float: right;
+	margin-left: 0.25vw;
+	margin-right: 0.25vw;
+	background-image: url(./Imgs/navBar.png);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+/*FIND OUT HOW TO FIX THA PADDING ISSUE*/
+#navBar a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#navBar a:visited{
+	text-decoration: none;
+}
+
+#navBar a:hover{
+	text-decoration: none;
+}
+
+#navBar li:hover {
+	display: block;
+	font-weight: bold;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	background-image: url(./Imgs/navBarHover.png);
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+#navBar li ul{
+	display: none;
+}
+
+#navBar li ul li{
+	width: 7.5em;
+	border-color: black;
+	margin-top: 0.1em;
+}
+
+#navBar li:hover ul{
+	display: block;
+	position: absolute;
+	left: 1em;
+	right: 1em;
+}
+
+#navBar li:hover li{
+	float: left;
+	font-weight: normal;
+}
+
+#navBar li:hover li:hover{
+	font-weight:bold;
+	margin-top: 0.1em;
+}
+
+#body {
+	background-image: url(./Imgs/binaryNumBackgroundj.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	width: 100vw;
+}
+
+#bodyElem {
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#bodyUl {
+	list-style-type: none;
+	display: table-cell;
+	max-width: 80vw;
+	float: right;
+	margin: 0 auto;
+}
+
+#bodyUl li{
+	display: inline-block;
+	width: 40vw;
+	height: 60vh;
+	float: right;
+}
+
+#bodyUl li img{
+	border: 3px solid #262626;
+	padding: 1px;
+}
+
+#bodyText{
+	background-color: #262626;
+	font-family: RobotoL;
+	color: white;
+	text-align: center;
+	align-items: center;
+	font-size: 2vh;
+}
+
+#bodyText hr{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	width: 75%;
+}
+
+#bodyText div{
+	margin: 5vh auto auto 5vh;
+	width: 85%;
+	height: 85%;
+}
+
+#bodyText em{
+	font-family: RobotoB;
+	color: red;
+	font-size: 3vh;
+}
+
+#footer {
+	background-color: black;
+	height: 10vh;
+	width: 100vw;
+	border-top-style: groove;
+	background-size: contain;
+	display: table-cell;
+	vertical-align: middle;
+	background-image: url(./Imgs/headerFooterBG.png);
+	background-size: contain;
+}
+
+.githubIcon, .linkedInIcon{
+	background: url(./Imgs/sprites.png) no-repeat;
+}
+
+.githubIcon{
+	background-position: 0 0;
+	width: 40px;
+	height: 40px;
+}
+
+.linkedInIcon{
+	background-position: -43px 0;
+	width: 40px;
+	height: 40px;
+}
+
+
+#footNavBar {
+	list-style-type: none;
+	display: inline;
+}
+
+#footNavBar li{
+	display: inline;
+	float: right;
+	text-align: center;
+	border-style: groove;
+	border-radius: 5px;
+	border-color: silver;
+	margin-left: 0.25vw;
+	margin-right: 0.25vw;
+	background-color: white;
+}
+
+#footNavBar li:hover{
+	border-color: black;
+}
