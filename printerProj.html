@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="jwStyleSheet.css" />
+	<link type="text/css" rel="stylesheet" href="projStyleSheet.css" />
+	<title>Whitelaw 3D Printer Project</title>
+</head>
+
+<body>
+	<!-- upper links for different Projects -->
+	<div id="header">
+		<div id="headElem">
+			<h1>Joshua Whitelaw</h1>
+				<ul id="navBar">
+					<li style="visibility: hidden; width: 10vw;"> </li>
+					<li><div><span><a href="" >Something</a></span></div></li>
+					<li><div><span><a href="" >Project 2</a></span></div></li>
+					<li><div><span><a href="printerProj.html" >3D Printer Driver</a></span></div></li>
+					<li><div><span><a href="mainPage.html" >About Me</a></span></div>
+						<ul>
+							<li><div><span><a href="transcript.html" >Courses</a></span></div></li>
+							<li><div><span><a href="resume.html" >Resume</a></span></div></li>
+						</ul>
+					</li>
+				</ul>
+			<hr style="margin-top: .25vw;">
+		</div>
+	</div>
+
+	<!-- body of page -->
+	<div id="body">
+		<div id="bodyElemProj">
+			<div id="headBodyElem"><h3>3D Printer Device Driver</h3><hr></div>
+			<ul id="projUl">
+				<li><div id="imgProj"><span title="Printer Assignment"><img src="./Imgs/3dprintPDF.png"></span></div></li>
+				<li><div id="imgProj"><span title="Printer Output"><img src="./Imgs/3dprint.png"></span></div></li>
+				<li><div id="projBodyText"><div><p>This project was for the CMPSC 311 Systems Programming course.  We developed the code to run the device driver for a 3D printer that extrudes multiple materials at certain positions.  The first phase of the project was to write functions to initialize the 3D printer once it is turned on, power off the 3D printer, move the printing nozzle, retrieve the current coordinates of the printing nozzle, and to extrude the material based on data from a file listing the materials at specific coordinates to print efficiently.  All of these were based on pointers that were sent to each function and decoded to reveal data such as the command to use one of these functions and the appropriate data to go with it as well.</p>
+				<br>
+				<p>The second phase was to implement a file system to read data from files, store the data in allocated pointers based on offsets (for each data type), and send them to the printer drivers.  As an extra, we also implemented a function to write the data that was printed after the allocated pointer was sent to the driver.</p>
+				<br>
+				<p>The final phase of the project was to use socket IO and network the 3D printer.  The data was sent via network and recoded in order to for the printer driver to read the data appropriately.  After all the instructions were sent, then the POWEROFF command was sent to turn off the printer and the server connection was severed.
+				</p></div></div></li>
+			</ul>
+
+			<div id="headFooterElem"> <!--NEED TO CHANGE THIS-->
+				<p>To view and download entire project on GitHub, <a href="https://github.com/whitelaw-josh/3D-Printer-Device-Driver"  target="_blank;">click here.</a></p>
+			</div>
+		</div>
+	</div>
+
+	<!-- bottom links for GitHub, LinkedIn, Etc. -->
+	<div id="footer">
+	<hr style="margin-bottom: .25vw;">
+		<ul id="footNavBar">
+			<li style="visibility: hidden; width: 2.5vw;"></li>
+			<li class="githubIcon">
+				<div>
+					<span title="Joshua Whitelaw's GitHub">
+						<a href="https://github.com/whitelaw-josh" target="_blank" style="padding: 20px 20px;"></a>
+					</span>
+				</div>
+			</li> 
+		
+			<li class="linkedInIcon">
+				<div>
+					<span title="Joshua Whitelaw's LinkedIn Profile">
+						<a href="http://www.linkedin.com/in/whitelawjosh" target="_blank" style="padding: 20px 20px;"></a>
+					</span>
+				</div>
+			</li>
+
+			<li style="border: none; font-size: 10pt; color: white; font-family: Roboto; background-color: transparent; padding-top: 3vh;">
+				<div>
+					<span>Contact me at <a href="mailto:whitelaw.josh@yahoo.com" style="color: red;">
+				whitelaw.josh@yahoo.com</a>
+					</span>
+				</div>
+			</li>
+		</ul>
+</body>
+</html>
