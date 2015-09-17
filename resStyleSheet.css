@@ -40,7 +40,7 @@
 	width: 25vw;
 	height: 6vh;
 	background: #262626;
-	margin: 0 auto 1vh auto;
+	margin: 0 auto 0 auto;
 }
 
 #headBodyElem h2{
@@ -124,6 +124,8 @@
 	color: white;
 	font-family: RobotoL;
 	font-size: 1.75vh;
+	left: 0;
+	bottom: 0;
 }
 
 #headFooterElem a{

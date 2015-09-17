@@ -66,9 +66,15 @@
 	vertical-align: middle;
 }
 
+#projBodyText a{
+	color: red;
+}
+
 #headFooterElem {
 	color: white;
 	font-family: RobotoL;
+	left: 0;
+	bottom: 0;
 }
 
 #headFooterElem a{
